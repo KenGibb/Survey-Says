@@ -31,3 +31,7 @@ A twitter mock app that users will be able to type out their thoughts and expres
 - SQL
 
 ## Wireframes
+<img width="830" alt="Screen Shot 2023-03-07 at 9 45 08 AM" src="https://user-images.githubusercontent.com/85146023/223489675-167118ed-9a9c-4fa8-8247-bff08d79ada9.png">
+
+## ERDs
+<img width="1134" alt="Screen Shot 2023-03-07 at 10 22 22 AM" src="https://user-images.githubusercontent.com/85146023/223490027-466d569c-502f-47b6-a23d-61c680e648a0.png">
