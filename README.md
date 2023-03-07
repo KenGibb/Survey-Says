@@ -8,15 +8,17 @@ A twitter mock app that users will be able to type out their thoughts and expres
 - Follow and unfollow other users
 - Make a Rant
 - Reply to a Rant
-- Delete their Rant/Reply
+- Add Photos to their feed
+- Delete their Rant/Reply/Photo
 - Edit their Rant/Reply
 - Like or Dislike a Rant
-- Change password or username
 - See their followed user's feed
+- Change password or username
+- Change profile picture
 - Delete their account
 
 **Unregistered users** will be able to:
-- Create a new acount
+- Create a new acount using an username (and email?) and password
 
 **Registered Users** will be able to:
 - Log into their account using a username and password
