@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+	<h1>Profile List</h1>
+<br/>
+
+{% if profiles %}
+	{% for profile in profiles %}
+
+		<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://th.bing.com/th/id/R.9501b97635319ce3f001a6bdb6c3032e?rik=H6Y7a9m5b9JoQg&riu=http%3a%2f%2ffc08.deviantart.net%2ffs70%2ff%2f2011%2f224%2f4%2fc%2f__meep___by_the_cat_speaks-d46d4yo.jpg&ehk=%2f6%2bqlasmQRo379%2b4ifSCYg1VNdetJK73Y%2fjpgEkV7cQ%3d&risl=&pid=ImgRaw&r=0" class="img-fluid rounded-start" alt="Profile Image">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ profile.user.username }}</h5>
+        <p class="card-text"><a href="{% url 'profile' profile.user.id %}">@{{ profile.user.username|lower }}</a></p>
+        <br/><br/>
+        <p class="card-text"><small class="text-muted">Last Updated: {{ profile.date_modified }}</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<br/><br/>
+
+
+
+	{% endfor %}
+
+{% endif %}
+
+
+{% endblock %}
